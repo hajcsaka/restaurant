@@ -1,0 +1,36 @@
+body{
+    background-color:#e8edf1
+}
+.login-div{
+    padding:15px; 
+    border: solid 1px;#c0c0c0;
+    box-shadow: 0 0 2px; #777777;
+    display: inline-block;
+}
+
+.login-div input{
+    display:block;
+    margin-bottom: 20px;
+    
+}
+
+input[class*="blue"] {
+    border: solid 1px blue
+}
+
+input[class$="red"] {
+    border: solid 1px  #E91E63;
+}
+
+ul li:last-child {
+    text-decoration: underline;
+ }
+ ul li:first-child{
+    color:red;
+ }
+ ul li:nth-child(2){
+    color:#3F51B5;
+ }
+ ul li:nth-child(3){
+    color:#9bb53f;
+ }
